@@ -1,0 +1,22 @@
+{
+  "name": "qris-generator-pro",
+  "version": "1.0.0",
+  "description": "OrderKuota QRIS Generator with admin fee",
+  "main": "api/qris.js",
+  "scripts": {
+    "start": "node api/qris.js",
+    "dev": "nodemon api/qris.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "qs": "^6.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
